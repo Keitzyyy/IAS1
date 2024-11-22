@@ -1,0 +1,271 @@
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.h1, .h2, .h3, .h4, .h5, .h6{
+    color: rgb(204, 204, 204);
+    font-weight: 700;
+}
+.navbar {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+}
+.navbar .nav-link {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: rgb(204, 204, 204);
+}
+.navbar .nav-link:hover {
+    color: rgb(252, 141, 141);
+}
+.navbar .nav-link.active {
+    color: rgb(252, 141, 141);
+}
+.navbar-toggler{
+    color: rgb(204, 204, 204);
+}
+.navbar-toggler-icon {
+    color: rgb(204, 204, 204);
+    padding-top: 15%;
+    font-size: 23px;
+}    
+.section-home {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.section-home h1, h5 {
+    font-size: 4.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+}
+.section-home p{
+    font-family: "Poppins", sans-serif;
+}
+.section-home h3 {
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.welcome-text {
+    margin-top: 20%;
+}
+.buttons {
+    margin-top: 3%;
+}
+.button-link {
+    border: 2px solid cyan;
+    background: -webkit-linear-gradient(#394ae225, #37ddb454);
+    border-radius: 10%;
+    padding: 10px 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.button-link:hover {
+    background-color: rgb(33, 172, 165);
+    transition: .4s;
+    color: white;
+}
+/* About Us Area */
+.section-aboutus {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.card-about {
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 30px;
+    
+}
+.img1 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img2 img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -80px;
+}
+.card-about:hover .img1 img{
+    transform: scale(1.1);
+    transition: .4s;
+}
+.card-about:hover .img2 img{
+    border-color: rgb(103,174,202);
+    transform: scale(1.1);
+    transition: .4s;
+}
+.card-about {
+    background: -webkit-linear-gradient(#394ae225, #37ddb454);
+}
+.main-text {
+    padding: 30px 0;
+    text-align: center;
+}
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 0 0 20px;
+    font-family: "Poppins", sans-serif;
+}
+.main-text h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+}
+.main-text h6{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin-top: -15;
+}
+.main-text p{
+    font-size: 16px;
+    padding: 0 35px;
+    font-family: "Poppins", sans-serif;
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.socials i{
+    border: 3px solid;
+    border-radius: 60px;
+    background: -webkit-linear-gradient(#394ae225, #37ddb454);
+    padding: 12px 13.6px;
+    color: white;
+    font-size: 15px;
+    border-left: 2px solid rgb(78, 146, 146);
+    border-right: 2px solid rgb(78, 146, 146);
+    border-top: 2px solid rgb(114, 226, 226);
+    border-bottom: 2px solid rgb(114, 226, 226);
+}
+.socials i:hover{
+    transform: scale(1.1);
+    border-color: cyan;
+    border-left-color: rgb(16, 92, 92);
+    border-right-color: rgb(16, 92, 92);
+    color: cyan;
+    transition: .4s;
+}
+/* End About Us */
+
+/* Gallery Area */
+.section-gallery {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    
+}
+.section-gallery h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.section-gallery p{
+    font-size: 17px;
+}
+.section-gallery h3 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.main-text-gallery{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* * Contact Us Area */ 
+.section-contact {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.section-contact h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.section-contact h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.form-group:hover{
+    transform: scale(1.03);
+    transition: .4s;
+}
+.card-contact {
+    background: -webkit-linear-gradient(#394ae225, #37ddb454);
+    overflow: hidden;
+    border-radius: 2%;
+    border: 2px solid cyan;
+}
+.info p {
+    font-size: 1px;
+}
+.text-head {
+    margin-bottom: 4%;
+}
+.icon-name {
+    font-size: 20px;
+    border-bottom: 2px solid white;
+}
+.icon i{
+    border: 3px solid;
+    border-radius: 60px;
+    background: -webkit-linear-gradient(#394ae225, #37ddb454);
+    padding: 12px 13.6px;
+}
+.icon i:hover {
+    transform: scale(1.1);
+    border-color: cyan;
+    color: cyan;
+    transition: .4s;
+}
+.btn1 {
+    border: 1px solid cyan;
+    background: -webkit-linear-gradient(#394ae225, #37ddb454);
+    border-radius: 10%;
+    padding: 5px 20px; 
+}
+.btn1:hover {
+    background-color: rgb(33, 172, 165);
+    transform: scale(1.1);
+    transition: .4s;
+}
+/* End Contact Us Area */
+figure .blockquote-footer {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
