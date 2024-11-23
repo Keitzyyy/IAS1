@@ -8,7 +8,7 @@ html, body {
 }
 .navbar {
     background: rgb(103,174,202);
-    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url('../images/home.jpg');
 }
 .navbar .nav-link {
     font-size: 17px;
@@ -32,7 +32,7 @@ html, body {
 }    
 .section-home {
     background: rgb(103,174,202);
-    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url('../images/home.jpg');
     background-size: cover;
     align-items: center;
     text-align: center;
@@ -76,7 +76,7 @@ html, body {
 /* About Us Area */
 .section-aboutus {
     background: rgb(103,174,202);
-    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url('../images/home.jpg');
     background-size: cover;
     align-items: center;
     text-align: center;
@@ -175,7 +175,7 @@ html, body {
 /* Gallery Area */
 .section-gallery {
     background: rgb(103,174,202);
-    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url('../images/home.jpg');
     background-size: cover;
     align-items: center;
     text-align: center;
@@ -205,7 +205,7 @@ html, body {
 /* * Contact Us Area */ 
 .section-contact {
     background: rgb(103,174,202);
-    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url('../images/home.jpg');
     background-size: cover;
     align-items: center;
     text-align: center;
